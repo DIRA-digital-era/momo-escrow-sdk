@@ -1,0 +1,9 @@
+{
+"scripts": {
+  "build": "npx tsup && node fix-extensions.mjs",
+  "dev": "npx tsup --watch",
+  "clean": "npx tsup --clean"
+},
+
+"type": "module"
+}
