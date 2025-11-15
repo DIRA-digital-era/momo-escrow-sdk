@@ -1,9 +1,20 @@
 {
-"scripts": {
-  "build": "npx tsup && node fix-extensions.mjs",
-  "dev": "npx tsup --watch",
-  "clean": "npx tsup --clean"
-},
-
-"type": "module"
+  "name": "momo-escrow-sdk",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup && node fix-extensions.mjs",
+    "dev": "tsup --watch",
+    "clean": "tsup --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Allen-Brian/momo-escrow-sdk.git"
+  },
+  "author": "DIRA",
+  "license": "MIT"
 }
