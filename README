@@ -48,11 +48,11 @@ momo-escrow-sdk/
     "expo",
     "sdk"
   ],
-  "author": "Your Name",
+  "author": "DIRA",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/momo-escrow-sdk"
+    "url": "https://github.com/DIRA-digital-era/momo-escrow-sdk"
   },
   "devDependencies": {
     "typescript": "^5.3.0"
